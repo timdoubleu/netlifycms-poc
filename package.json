@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/quicken-timwilliams/cms-poc.git"
+    "url": "git@github.com:timdoubleu/netlifycms-poc.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/quicken-timwilliams/cms-poc#readme"
+  "homepage": "https://github.com/timdoubleu/netlifycms-poc"
 }

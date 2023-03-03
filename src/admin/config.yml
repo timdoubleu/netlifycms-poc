@@ -1,9 +1,7 @@
 backend:
-  name: bitbucket
+  name: git-gateway
   repo: https://github.com/timdoubleu/netlifycms-poc
-  branch: master
-  auth_type:
-  app_id:
+  branch: main
 
 publish_mode: editorial_workflow
 media_folder: "src/static/imgs"
