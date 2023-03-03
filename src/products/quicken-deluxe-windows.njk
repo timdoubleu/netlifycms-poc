@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: Quicken Deluxe Product Page
+pageSku: '170164'
+---
+
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/products/quicken-starter-windows/">Quicken Starter</a></li>
+  <li><a href="/products/quicken-deluxe-windows/">Quicken Deluxe</a></li>
+</ul>
+
+<h1>{{ title }}</h1>
+
+<pre style="max-width:100vw; overflow: auto;">
+{{ products[pageSku] | dump | safe }}
+</pre>
+
+<pre>
+Tier: {{ products[pageSku].Tier }}
+SKU: {{ products[pageSku].SKU }}
+Price: {{ products[pageSku].Price }}
+Term: {{ products[pageSku].Term }}
+RenewalSKU: {{ products[pageSku].RenewalSKU }}
+RenewalPrice: {{ products[pageSku].RenewalPrice }}
+</pre>
